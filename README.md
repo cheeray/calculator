@@ -5,8 +5,12 @@ Calculator
 Wagering calculator.
 
 # Build
-
-1. Run "mvn package" to build;
+Open dividend-calculator folder;
+Run "mvn package" to build;
 
 # Run
-java -jar divident-calculator-1.0.0.jar
+java -jar dividend-calculator-1.0.0.jar
+
+# Place a bet
+Bet:[W|P|E]:[selections]:[stake]
+
