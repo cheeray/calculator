@@ -32,7 +32,8 @@ public class Calculator {
 		try (final Scanner scanner = new Scanner(System.in)) {
 
 			// prompt for the user's name
-			System.out.println("Please input your bets: Bet:[W|P|E]:[1,...]:[1,...]. ");
+			System.out.println("Place a bet: Bet:[W|P|E]:[1,...]:[1,...]");
+			System.out.println("Set results: Result:[1,...]:[1,...]:[1,...].");
 			while (scanner.hasNextLine()) {
 				// Init a bet ...
 				Bet bet = null;
